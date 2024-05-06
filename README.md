@@ -3,8 +3,9 @@
 ![277207501-6901ee1c-3028-482c-bfcf-6bd0c5c5a4a8](https://github.com/ChessLogical/CargoHelper/assets/169053333/1d952b76-7d16-4369-8fd8-6a5a4c37b3c2)
 
 
+Work smarter, not harder! Save time and key clicks! Thiscan be edited to your taste. 
+
 When compiling from windows, it saves time (and clicks and typing) just staying on the desktop. (c.bat)
 /////
 When compiling from Linux, it saves time (and clicks and typing) by compiling from this file!  (D.sh)
 
-This batch file for example can be placed on your desktop. Once you run cargo new it makes the directories you need right on the desktop. Copy this batch file into the main app directory (where your cargo.toml is) and that way the build commands work. Any item marked with a * before the description,  for example,  *cargo build [Build the project] indicates that it runs cargo clean automatically before running the command (in this case cargo build). Automatic cleaning before running some of the commands prevents compiler errors based on having artifacts left over that cause conflicts. As such, this is actually a useful tool, i use it every day.
